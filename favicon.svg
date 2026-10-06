@@ -1,18 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
   <!-- Minimalist, razor-sharp geometric monogram for RAPID IO -->
-  <!-- Dark container background for standalone favicon visibility -->
-  <rect width="64" height="64" rx="12" fill="#0D0E12" />
+  <rect width="64" height="64" rx="14" fill="#0E1015" />
   
-  <!-- Precision Vector Monogram: Crisp Architectural 'R' + Forward I/O Vector -->
-  <!-- Vertical Spine -->
-  <path d="M18 14H24V50H18V14Z" fill="#F8FAFC" />
+  <!-- Architectural R Monogram -->
+  <!-- Left Vertical Pillar -->
+  <rect x="15" y="14" width="7" height="36" rx="1.5" fill="#F8FAFC" />
   
   <!-- Upper Loop -->
-  <path d="M24 14H36C42.627 14 47 18.03 47 24.5C47 30.97 42.627 35 36 35H24V14ZM24 20V29H35.5C38.8 29 41 27.2 41 24.5C41 21.8 38.8 20 35.5 20H24Z" fill="#F8FAFC" />
+  <path d="M22 14H35C42 14 46 18.5 46 25C46 31.5 42 36 35 36H22V14ZM29 21V29H34.5C37.5 29 39 27.5 39 25C39 22.5 37.5 21 34.5 21H29Z" fill="#F8FAFC" />
   
-  <!-- Dynamic I/O Diagonal Conduit -->
-  <path d="M30 33L44 50H36.5L24 34.5H29.5L30 33Z" fill="#38BDF8" />
-  
-  <!-- Precision Sub-pixel Accent Line -->
-  <rect x="44" y="14" width="3" height="3" fill="#38BDF8" />
+  <!-- Precision Diagonal Leg -->
+  <path d="M28 34L41.5 50H49L35.5 34H28Z" fill="#38BDF8" />
 </svg>

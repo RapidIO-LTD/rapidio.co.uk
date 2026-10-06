@@ -1,64 +1,46 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth dark">
+<html lang="en" class="scroll-smooth">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rapid IO | Institutional Distributed Systems & Frontier Applied AI</title>
-  <meta name="description" content="Rapid IO LTD is an elite London-based engineering consultancy specializing in high-throughput distributed architectures, quantitative trading infrastructure, and sovereign agentic AI systems for hedge funds and investment banks.">
-  <meta name="keywords" content="Distributed Systems, Quantitative Finance, Algorithmic Trading, Backtesting Engine, Electronic Trading, Risk Systems, Microsoft Orleans, High Performance .NET, Anthropic Claude, Agentic AI, Enterprise RAG">
+  <title>Rapid IO LTD | High-Performance Systems & Applied AI</title>
+  <meta name="description" content="Rapid IO LTD is a London-based technical consultancy specializing in distributed systems architecture, quantitative simulation engines, and applied artificial intelligence for capital markets.">
   <meta name="author" content="Rapid IO LTD">
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  
-  <!-- OpenGraph / Social Sharing -->
+
+  <!-- OpenGraph Metadata -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://rapidio.co.uk/">
-  <meta property="og:title" content="Rapid IO | Distributed Systems & Frontier Applied AI">
-  <meta property="og:description" content="Mission-critical distributed architectures, high-throughput quantitative simulation engines, and sovereign agentic AI workflows for capital markets.">
+  <meta property="og:title" content="Rapid IO LTD | High-Performance Systems & Applied AI">
+  <meta property="og:description" content="Distributed systems engineering, quantitative trading infrastructure, and applied artificial intelligence for institutional finance.">
   <meta property="og:image" content="https://rapidio.co.uk/favicon.svg">
 
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Rapid IO | Distributed Systems & Frontier Applied AI">
-  <meta name="twitter:description" content="Mission-critical distributed architectures, high-throughput quantitative simulation engines, and sovereign agentic AI workflows for capital markets.">
-
-  <!-- Google Fonts: Inter & JetBrains Mono -->
+  <!-- Typography: Inter & JetBrains Mono -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
-      darkMode: 'class',
       theme: {
         extend: {
           colors: {
-            obsidian: {
-              950: '#06090F',
-              900: '#0A0E17',
-              850: '#0F1420',
-              800: '#141B2B',
-              700: '#1E293B',
-              600: '#334155'
-            },
-            cyan: {
-              400: '#22D3EE',
-              500: '#06B6D4',
-              600: '#0891B2',
-              glow: '#00F2FE'
-            },
-            emerald: {
-              400: '#34D399',
-              500: '#10B981'
+            brand: {
+              950: '#090A0D',
+              900: '#0E1015',
+              850: '#14171E',
+              800: '#1B1F2A',
+              700: '#2A3040',
+              600: '#47516B',
+              accent: '#0284C7',
+              accentLight: '#38BDF8'
             }
           },
           fontFamily: {
             sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
             mono: ['JetBrains Mono', 'monospace']
-          },
-          boxShadow: {
-            'glow-cyan': '0 0 25px -5px rgba(6, 182, 212, 0.25)',
-            'glow-card': '0 0 20px -2px rgba(6, 182, 212, 0.08)'
           }
         }
       }
@@ -68,31 +50,7 @@
   <!-- Lucide Icons -->
   <script src="https://unpkg.com/lucide@latest"></script>
 
-  <style>
-    /* Technical Grid Background Overlay */
-    .bg-grid-pattern {
-      background-size: 40px 40px;
-      background-image: 
-        linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
-        linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
-    }
-    .radial-gradient-mask {
-      mask-image: radial-gradient(ellipse at 50% 20%, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 80%);
-      -webkit-mask-image: radial-gradient(ellipse at 50% 20%, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 80%);
-    }
-    .text-gradient {
-      background: linear-gradient(135deg, #FFFFFF 20%, #94A3B8 70%, #38BDF8 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-    .text-cyan-gradient {
-      background: linear-gradient(135deg, #00F2FE 0%, #06B6D4 60%, #38BDF8 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-  </style>
-
-  <!-- Structured Data JSON-LD for Institutional Credibility -->
+  <!-- Structured Data JSON-LD -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -101,799 +59,428 @@
     "url": "https://rapidio.co.uk",
     "logo": "https://rapidio.co.uk/favicon.svg",
     "email": "admin@rapidio.co.uk",
-    "description": "Institutional distributed systems engineering, high-throughput quantitative trading infrastructure, and frontier applied AI for hedge funds and investment banks.",
+    "description": "Technical consultancy specializing in distributed systems architecture, quantitative simulation engines, and applied artificial intelligence for capital markets.",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "London",
       "addressCountry": "GB"
-    },
-    "knowsAbout": [
-      "Distributed Computing",
-      "Quantitative Trading Infrastructure",
-      "Backtesting Engines",
-      "Electronic Trading Platforms",
-      "Real-Time Risk Systems",
-      "Microsoft Orleans Virtual Actors",
-      "Anthropic Claude Agentic Workflows",
-      "Enterprise Retrieval-Augmented Generation (RAG)"
-    ]
+    }
   }
   </script>
 </head>
-<body class="bg-obsidian-950 text-slate-200 font-sans antialiased selection:bg-cyan-500 selection:text-obsidian-950 min-h-screen relative overflow-x-hidden">
+<body class="bg-brand-950 text-slate-300 font-sans antialiased selection:bg-slate-700 selection:text-white min-h-screen">
 
-  <!-- Ambient Glow Effects -->
-  <div class="fixed inset-0 pointer-events-none z-0">
-    <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[850px] h-[450px] bg-cyan-500/10 rounded-full blur-[140px] opacity-70"></div>
-    <div class="absolute top-[800px] right-[-100px] w-[500px] h-[500px] bg-sky-600/5 rounded-full blur-[150px]"></div>
-    <div class="absolute bottom-[400px] left-[-150px] w-[600px] h-[600px] bg-cyan-600/5 rounded-full blur-[160px]"></div>
-    <div class="absolute inset-0 bg-grid-pattern radial-gradient-mask opacity-60"></div>
-  </div>
-
-  <!-- NAVIGATION HEADER -->
-  <header class="sticky top-0 z-50 backdrop-blur-md bg-obsidian-950/80 border-b border-obsidian-800/80 transition-all">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+  <!-- TOP NAVIGATION -->
+  <header class="border-b border-brand-800 bg-brand-950/95 sticky top-0 z-50 backdrop-blur-sm">
+    <div class="max-w-6xl mx-auto px-6 h-18 flex items-center justify-between py-4">
       
-      <!-- Logo Branding -->
-      <a href="#" class="flex items-center space-x-3.5 group">
-        <div class="relative w-10 h-10 rounded-xl bg-obsidian-900 border border-obsidian-700/80 flex items-center justify-center p-1.5 shadow-glow-card group-hover:border-cyan-500/60 transition-all duration-300">
+      <!-- Brand Logo -->
+      <a href="#" class="flex items-center space-x-3 group">
+        <div class="w-8 h-8 rounded bg-brand-900 border border-brand-700 flex items-center justify-center p-1">
           <svg viewBox="0 0 64 64" fill="none" class="w-full h-full">
-            <path d="M18 16h8c7 0 11 3.5 11 9.5s-4 9.5-11 9.5h-8V16z" stroke="#00F2FE" stroke-width="5" stroke-linejoin="round" fill="none" />
-            <path d="M26 35l14 15" stroke="#38BDF8" stroke-width="5" stroke-linecap="round" />
-            <circle cx="45" cy="20" r="3.5" fill="#22D3EE" />
-            <circle cx="48" cy="42" r="3" fill="#00F2FE" />
+            <rect x="15" y="14" width="7" height="36" rx="1.5" fill="#F8FAFC" />
+            <path d="M22 14H35C42 14 46 18.5 46 25C46 31.5 42 36 35 36H22V14ZM29 21V29H34.5C37.5 29 39 27.5 39 25C39 22.5 37.5 21 34.5 21H29Z" fill="#F8FAFC" />
+            <path d="M28 34L41.5 50H49L35.5 34H28Z" fill="#38BDF8" />
           </svg>
         </div>
-        <div class="flex flex-col">
-          <div class="flex items-center space-x-1">
-            <span class="text-xl font-bold tracking-tight text-white group-hover:text-slate-100 transition-colors">RAPID</span>
-            <span class="text-xl font-bold tracking-tight text-cyan-400">IO</span>
-          </div>
-          <span class="text-[10px] uppercase font-mono tracking-wider text-slate-400 -mt-1">Systems & Applied AI</span>
+        <div class="flex items-baseline space-x-1.5">
+          <span class="text-base font-bold tracking-tight text-white">RAPID IO</span>
+          <span class="text-[11px] font-mono text-slate-400">LTD</span>
         </div>
       </a>
 
-      <!-- Desktop Navigation Links -->
+      <!-- Desktop Links -->
       <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-300">
-        <a href="#capabilities" class="hover:text-cyan-400 transition-colors">Capabilities</a>
-        <a href="#quant-core" class="hover:text-cyan-400 transition-colors">Quantitative Core</a>
-        <a href="#agentic-ai" class="hover:text-cyan-400 transition-colors">Frontier AI</a>
-        <a href="#architecture" class="hover:text-cyan-400 transition-colors">Architecture</a>
-        <a href="#track-record" class="hover:text-cyan-400 transition-colors">Pedigree</a>
-        <a href="#engagement" class="hover:text-cyan-400 transition-colors">Engagement</a>
+        <a href="#specializations" class="hover:text-white transition-colors">Specializations</a>
+        <a href="#engineering" class="hover:text-white transition-colors">Systems Engineering</a>
+        <a href="#track-record" class="hover:text-white transition-colors">Experience</a>
+        <a href="#applied-ai" class="hover:text-white transition-colors">Applied AI</a>
+        <a href="#contact" class="hover:text-white transition-colors">Contact</a>
       </nav>
 
-      <!-- Right Header Actions: Live Status & Contact -->
-      <div class="hidden sm:flex items-center space-x-4">
-        <div class="hidden lg:flex items-center space-x-2 px-3 py-1 rounded-full bg-obsidian-900 border border-obsidian-700 text-xs font-mono text-slate-300">
-          <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-          <span>Institutional Practice</span>
-        </div>
-        <a href="#contact" class="inline-flex items-center justify-center px-4 py-2 rounded-lg text-sm font-semibold text-obsidian-950 bg-gradient-to-r from-cyan-400 to-cyan-500 hover:from-cyan-300 hover:to-cyan-400 transition-all shadow-glow-cyan">
-          Initiate Briefing
-          <i data-lucide="arrow-right" class="w-4 h-4 ml-1.5"></i>
+      <!-- Contact Button -->
+      <div class="hidden sm:block">
+        <a href="mailto:admin@rapidio.co.uk" class="inline-flex items-center text-xs font-mono text-slate-200 border border-brand-700 bg-brand-900 hover:bg-brand-850 px-3.5 py-1.5 rounded transition-colors">
+          admin@rapidio.co.uk
         </a>
       </div>
 
-      <!-- Mobile Menu Button -->
-      <div class="md:hidden flex items-center">
-        <button id="mobileMenuBtn" aria-label="Toggle navigation menu" class="p-2 rounded-lg text-slate-400 hover:text-white hover:bg-obsidian-850">
-          <i data-lucide="menu" class="w-6 h-6"></i>
+      <!-- Mobile Menu Toggle -->
+      <div class="md:hidden">
+        <button id="mobileMenuBtn" aria-label="Toggle navigation menu" class="text-slate-400 hover:text-white p-1">
+          <i data-lucide="menu" class="w-5 h-5"></i>
         </button>
       </div>
     </div>
 
-    <!-- Mobile Dropdown Menu -->
-    <div id="mobileMenu" class="hidden md:hidden border-b border-obsidian-800 bg-obsidian-950/95 px-4 pt-3 pb-6 space-y-3 font-medium text-slate-200">
-      <a href="#capabilities" class="block py-2 hover:text-cyan-400">Capabilities</a>
-      <a href="#quant-core" class="block py-2 hover:text-cyan-400">Quantitative Core</a>
-      <a href="#agentic-ai" class="block py-2 hover:text-cyan-400">Frontier AI</a>
-      <a href="#architecture" class="block py-2 hover:text-cyan-400">Architecture</a>
-      <a href="#track-record" class="block py-2 hover:text-cyan-400">Pedigree</a>
-      <a href="#engagement" class="block py-2 hover:text-cyan-400">Engagement</a>
-      <div class="pt-4 border-t border-obsidian-800 flex flex-col space-y-3">
-        <a href="#contact" class="w-full text-center py-2.5 rounded-lg text-sm font-semibold text-obsidian-950 bg-cyan-400 hover:bg-cyan-300">
-          Initiate Briefing
-        </a>
-      </div>
+    <!-- Mobile Dropdown -->
+    <div id="mobileMenu" class="hidden md:hidden border-t border-brand-850 bg-brand-950 px-6 py-4 space-y-3 text-sm">
+      <a href="#specializations" class="block text-slate-300 hover:text-white">Specializations</a>
+      <a href="#engineering" class="block text-slate-300 hover:text-white">Systems Engineering</a>
+      <a href="#track-record" class="block text-slate-300 hover:text-white">Experience</a>
+      <a href="#applied-ai" class="block text-slate-300 hover:text-white">Applied AI</a>
+      <a href="#contact" class="block text-slate-300 hover:text-white">Contact</a>
     </div>
   </header>
 
   <!-- HERO SECTION -->
-  <section class="relative z-10 pt-20 pb-24 md:pt-28 md:pb-32 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-    
-    <!-- Status Tag -->
-    <div class="inline-flex items-center space-x-2.5 px-3.5 py-1.5 rounded-full bg-obsidian-900 border border-cyan-500/30 text-xs font-mono text-cyan-300 mb-8 shadow-glow-card">
-      <span class="w-2 h-2 rounded-full bg-cyan-400 animate-ping"></span>
-      <span>CAPITAL MARKETS DISTRIBUTED SYSTEMS & APPLIED AI</span>
-    </div>
-
-    <!-- Main Headline -->
-    <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight text-white max-w-5xl mx-auto leading-[1.1] text-gradient">
-      Engineering Mission-Critical Distributed Computing & Autonomous Intelligence
-    </h1>
-
-    <!-- Subtitle / Value Proposition -->
-    <p class="mt-6 text-lg sm:text-xl text-slate-400 max-w-3xl mx-auto leading-relaxed font-normal">
-      Rapid IO partners with leading hedge funds, investment banks, and technology enterprises to engineer deterministic, high-throughput architectures, multi-terabyte simulation engines, and sovereign agentic AI workflows.
-    </p>
-
-    <!-- CTAs -->
-    <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
-      <a href="#contact" class="w-full sm:w-auto inline-flex items-center justify-center px-6 py-3.5 rounded-xl text-base font-semibold text-obsidian-950 bg-gradient-to-r from-cyan-400 to-cyan-500 hover:from-cyan-300 hover:to-cyan-400 transition-all shadow-glow-cyan">
-        Schedule Technical Briefing
-        <i data-lucide="arrow-right" class="w-5 h-5 ml-2"></i>
-      </a>
-      <a href="#quant-core" class="w-full sm:w-auto inline-flex items-center justify-center px-6 py-3.5 rounded-xl text-base font-medium text-slate-200 bg-obsidian-900/90 border border-obsidian-700 hover:border-slate-500 hover:bg-obsidian-850 transition-all">
-        <i data-lucide="cpu" class="w-5 h-5 mr-2 text-cyan-400"></i>
-        Explore System Architecture
-      </a>
-    </div>
-
-    <!-- Proven Institutional Metrics Banner -->
-    <div class="mt-16 sm:mt-20 grid grid-cols-2 lg:grid-cols-4 gap-4 max-w-5xl mx-auto">
-      <div class="p-5 rounded-2xl bg-obsidian-900/60 border border-obsidian-800/80 backdrop-blur-sm text-left hover:border-cyan-500/30 transition-all">
-        <div class="text-xs font-mono text-cyan-400 uppercase tracking-wider">Critical Path Latency</div>
-        <div class="text-2xl sm:text-3xl font-extrabold text-white mt-1.5 font-mono">&lt; 50 µs</div>
-        <div class="text-xs text-slate-400 mt-1">Zero-allocation GC-optimized execution</div>
-      </div>
-      <div class="p-5 rounded-2xl bg-obsidian-900/60 border border-obsidian-800/80 backdrop-blur-sm text-left hover:border-cyan-500/30 transition-all">
-        <div class="text-xs font-mono text-cyan-400 uppercase tracking-wider">Historical Simulation</div>
-        <div class="text-2xl sm:text-3xl font-extrabold text-white mt-1.5 font-mono">Multi-TB</div>
-        <div class="text-xs text-slate-400 mt-1">L2/L3 order book backtesting grids</div>
-      </div>
-      <div class="p-5 rounded-2xl bg-obsidian-900/60 border border-obsidian-800/80 backdrop-blur-sm text-left hover:border-cyan-500/30 transition-all">
-        <div class="text-xs font-mono text-cyan-400 uppercase tracking-wider">Open Source Pedigree</div>
-        <div class="text-2xl sm:text-3xl font-extrabold text-white mt-1.5 font-mono">5,000,000+</div>
-        <div class="text-xs text-slate-400 mt-1">Global package downloads</div>
-      </div>
-      <div class="p-5 rounded-2xl bg-obsidian-900/60 border border-obsidian-800/80 backdrop-blur-sm text-left hover:border-cyan-500/30 transition-all">
-        <div class="text-xs font-mono text-cyan-400 uppercase tracking-wider">Zero Production Downtime</div>
-        <div class="text-2xl sm:text-3xl font-extrabold text-white mt-1.5 font-mono">250+</div>
-        <div class="text-xs text-slate-400 mt-1">Continuous production releases</div>
-      </div>
-    </div>
-  </section>
-
-  <!-- STRATEGIC OVERVIEW / THE RAPID IO CONVERGENCE -->
-  <section id="capabilities" class="py-20 bg-obsidian-900/40 border-y border-obsidian-800/80 relative z-10">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  <section class="border-b border-brand-800 py-20 md:py-28">
+    <div class="max-w-6xl mx-auto px-6">
       
-      <div class="text-center max-w-3xl mx-auto mb-16">
-        <h2 class="text-xs font-mono text-cyan-400 uppercase tracking-widest">Architectural Advantage</h2>
-        <p class="mt-2 text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
-          Where Institutional Systems Meet Frontier Artificial Intelligence
-        </p>
-        <p class="mt-4 text-slate-400 text-base leading-relaxed">
-          Most AI advisory firms lack systems-level rigor. Most systems contractors have never deployed an autonomous agent. Rapid IO bridges the chasm between microsecond execution, distributed state machines, and frontier model reasoning.
-        </p>
-      </div>
-
-      <!-- Core Pillars Grid -->
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        
-        <!-- Pillar 1: High-Performance Distributed Systems -->
-        <div class="p-8 rounded-2xl bg-obsidian-900/90 border border-obsidian-800 hover:border-cyan-500/40 transition-all group shadow-glow-card flex flex-col justify-between">
-          <div>
-            <div class="w-12 h-12 rounded-xl bg-cyan-500/10 border border-cyan-500/20 flex items-center justify-center text-cyan-400 mb-6 group-hover:bg-cyan-500/20 transition-colors">
-              <i data-lucide="layers" class="w-6 h-6"></i>
-            </div>
-            <h3 class="text-xl font-bold text-white mb-3">Distributed Virtual Actors & .NET Core</h3>
-            <p class="text-slate-400 text-sm leading-relaxed mb-6">
-              Engineering resilient, cloud-native microservices using <strong>Microsoft Orleans</strong>, actor models, and low-allocation C#/.NET Core. Capable of millions of concurrent stateful grains with built-in fault tolerance.
-            </p>
-          </div>
-          <ul class="text-xs font-mono space-y-2 text-slate-400 pt-4 border-t border-obsidian-800">
-            <li class="flex items-center"><i data-lucide="check" class="w-3.5 h-3.5 text-cyan-400 mr-2"></i> Microsoft Orleans Virtual Actors</li>
-            <li class="flex items-center"><i data-lucide="check" class="w-3.5 h-3.5 text-cyan-400 mr-2"></i> Distributed Grid Compute Farms</li>
-            <li class="flex items-center"><i data-lucide="check" class="w-3.5 h-3.5 text-cyan-400 mr-2"></i> Zero-Allocation Garbage Collection Profiling</li>
-          </ul>
-        </div>
-
-        <!-- Pillar 2: Quantitative Simulation & Trading Platforms -->
-        <div class="p-8 rounded-2xl bg-obsidian-900/90 border border-obsidian-800 hover:border-cyan-500/40 transition-all group shadow-glow-card flex flex-col justify-between">
-          <div>
-            <div class="w-12 h-12 rounded-xl bg-cyan-500/10 border border-cyan-500/20 flex items-center justify-center text-cyan-400 mb-6 group-hover:bg-cyan-500/20 transition-colors">
-              <i data-lucide="activity" class="w-6 h-6"></i>
-            </div>
-            <h3 class="text-xl font-bold text-white mb-3">Quantitative Backtesting & Electronic Trading</h3>
-            <p class="text-slate-400 text-sm leading-relaxed mb-6">
-              High-throughput event-driven simulation engines processing terabytes of tick-level order book data. Front-office electronic trading platforms, pricers, and execution gateways for tier-1 desks.
-            </p>
-          </div>
-          <ul class="text-xs font-mono space-y-2 text-slate-400 pt-4 border-t border-obsidian-800">
-            <li class="flex items-center"><i data-lucide="check" class="w-3.5 h-3.5 text-cyan-400 mr-2"></i> Multi-TB Historical L2/L3 Simulation</li>
-            <li class="flex items-center"><i data-lucide="check" class="w-3.5 h-3.5 text-cyan-400 mr-2"></i> Streaming Pricers (1,500+ Instruments)</li>
-            <li class="flex items-center"><i data-lucide="check" class="w-3.5 h-3.5 text-cyan-400 mr-2"></i> Bloomberg, Tradeweb, TrueEx & FIX Routers</li>
-          </ul>
-        </div>
-
-        <!-- Pillar 3: Real-Time Risk & Derivatives Systems -->
-        <div class="p-8 rounded-2xl bg-obsidian-900/90 border border-obsidian-800 hover:border-cyan-500/40 transition-all group shadow-glow-card flex flex-col justify-between">
-          <div>
-            <div class="w-12 h-12 rounded-xl bg-cyan-500/10 border border-cyan-500/20 flex items-center justify-center text-cyan-400 mb-6 group-hover:bg-cyan-500/20 transition-colors">
-              <i data-lucide="shield-check" class="w-6 h-6"></i>
-            </div>
-            <h3 class="text-xl font-bold text-white mb-3">Institutional Risk & xVA Analytics</h3>
-            <p class="text-slate-400 text-sm leading-relaxed mb-6">
-              Cross-asset intra-day risk calculation across FX, Rates, Equity Derivatives, and Prime Brokerage. Real-time Greeks, Value at Risk (VaR), and distributed reporting architectures for global desks.
-            </p>
-          </div>
-          <ul class="text-xs font-mono space-y-2 text-slate-400 pt-4 border-t border-obsidian-800">
-            <li class="flex items-center"><i data-lucide="check" class="w-3.5 h-3.5 text-cyan-400 mr-2"></i> xVA Risk Grid Compute Acceleration</li>
-            <li class="flex items-center"><i data-lucide="check" class="w-3.5 h-3.5 text-cyan-400 mr-2"></i> Pre-Trade & Post-Trade Limit Engines</li>
-            <li class="flex items-center"><i data-lucide="check" class="w-3.5 h-3.5 text-cyan-400 mr-2"></i> 100M+ Transaction Data Marts</li>
-          </ul>
-        </div>
-
-        <!-- Pillar 4: Autonomous Agentic AI -->
-        <div class="p-8 rounded-2xl bg-obsidian-900/90 border border-obsidian-800 hover:border-cyan-500/40 transition-all group shadow-glow-card flex flex-col justify-between">
-          <div>
-            <div class="w-12 h-12 rounded-xl bg-cyan-500/10 border border-cyan-500/20 flex items-center justify-center text-cyan-400 mb-6 group-hover:bg-cyan-500/20 transition-colors">
-              <i data-lucide="bot" class="w-6 h-6"></i>
-            </div>
-            <h3 class="text-xl font-bold text-white mb-3">Frontier Agentic AI & Claude Reasoning</h3>
-            <p class="text-slate-400 text-sm leading-relaxed mb-6">
-              Multi-agent orchestration powered by Anthropic Claude 3.5 Sonnet and Opus. Autonomous task decomposition, deterministic tool execution, and code generation loops for quantitative research.
-            </p>
-          </div>
-          <ul class="text-xs font-mono space-y-2 text-slate-400 pt-4 border-t border-obsidian-800">
-            <li class="flex items-center"><i data-lucide="check" class="w-3.5 h-3.5 text-cyan-400 mr-2"></i> Anthropic Claude Tool Use & Agents</li>
-            <li class="flex items-center"><i data-lucide="check" class="w-3.5 h-3.5 text-cyan-400 mr-2"></i> Autonomous Quantitative Research Loops</li>
-            <li class="flex items-center"><i data-lucide="check" class="w-3.5 h-3.5 text-cyan-400 mr-2"></i> Deterministic Guardrails & Output Validation</li>
-          </ul>
-        </div>
-
-        <!-- Pillar 5: Enterprise Deterministic RAG -->
-        <div class="p-8 rounded-2xl bg-obsidian-900/90 border border-obsidian-800 hover:border-cyan-500/40 transition-all group shadow-glow-card flex flex-col justify-between">
-          <div>
-            <div class="w-12 h-12 rounded-xl bg-cyan-500/10 border border-cyan-500/20 flex items-center justify-center text-cyan-400 mb-6 group-hover:bg-cyan-500/20 transition-colors">
-              <i data-lucide="database" class="w-6 h-6"></i>
-            </div>
-            <h3 class="text-xl font-bold text-white mb-3">Audit-Grade Financial RAG</h3>
-            <p class="text-slate-400 text-sm leading-relaxed mb-6">
-              Deterministic retrieval-augmented generation across regulatory filings, loan documents, and proprietary market data. Zero hallucinations via citation validation and mathematical proof bounds.
-            </p>
-          </div>
-          <ul class="text-xs font-mono space-y-2 text-slate-400 pt-4 border-t border-obsidian-800">
-            <li class="flex items-center"><i data-lucide="check" class="w-3.5 h-3.5 text-cyan-400 mr-2"></i> Hybrid Dense (Vector) + Sparse (BM25)</li>
-            <li class="flex items-center"><i data-lucide="check" class="w-3.5 h-3.5 text-cyan-400 mr-2"></i> Strict Lineage & Audit Trails</li>
-            <li class="flex items-center"><i data-lucide="check" class="w-3.5 h-3.5 text-cyan-400 mr-2"></i> Sub-Second Document Querying</li>
-          </ul>
-        </div>
-
-        <!-- Pillar 6: Sovereign & Air-Gapped Deployments -->
-        <div class="p-8 rounded-2xl bg-obsidian-900/90 border border-obsidian-800 hover:border-cyan-500/40 transition-all group shadow-glow-card flex flex-col justify-between">
-          <div>
-            <div class="w-12 h-12 rounded-xl bg-cyan-500/10 border border-cyan-500/20 flex items-center justify-center text-cyan-400 mb-6 group-hover:bg-cyan-500/20 transition-colors">
-              <i data-lucide="lock" class="w-6 h-6"></i>
-            </div>
-            <h3 class="text-xl font-bold text-white mb-3">Sovereign & Private VPC Enclaves</h3>
-            <p class="text-slate-400 text-sm leading-relaxed mb-6">
-              AI systems deployed directly within bank-grade VPCs (AWS, Azure, GCP) or private bare-metal enclaves. Zero-retention model endpoints with full regulatory and GDPR compliance.
-            </p>
-          </div>
-          <ul class="text-xs font-mono space-y-2 text-slate-400 pt-4 border-t border-obsidian-800">
-            <li class="flex items-center"><i data-lucide="check" class="w-3.5 h-3.5 text-cyan-400 mr-2"></i> Zero Data Retention Agreements</li>
-            <li class="flex items-center"><i data-lucide="check" class="w-3.5 h-3.5 text-cyan-400 mr-2"></i> Private Subnet Model Gateway Routers</li>
-            <li class="flex items-center"><i data-lucide="check" class="w-3.5 h-3.5 text-cyan-400 mr-2"></i> FCA & Bank Compliance Verification</li>
-          </ul>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- DEEP DIVE: QUANTITATIVE CORE -->
-  <section id="quant-core" class="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-    <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-      
-      <div class="lg:col-span-6 space-y-6">
-        <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-xs font-mono text-cyan-300">
-          <i data-lucide="terminal" class="w-3.5 h-3.5 mr-1"></i>
-          <span>QUANTITATIVE SYSTEMS PRACTICE</span>
+      <div class="max-w-3xl">
+        <div class="text-xs font-mono text-slate-400 uppercase tracking-wider mb-4">
+          London, United Kingdom · Engineering Practice
         </div>
         
-        <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight leading-tight">
-          High-Throughput Backtesting & Electronic Trading Infrastructure
-        </h2>
+        <h1 class="text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight text-white leading-tight">
+          High-performance distributed systems, quantitative infrastructure, and applied AI.
+        </h1>
         
-        <p class="text-slate-400 text-base leading-relaxed">
-          Financial strategies fail when simulation engines cannot mirror real-world market microstructure. Rapid IO architects event-driven backtesting pipelines and trading systems capable of handling massive volumes with institutional accuracy.
+        <p class="mt-6 text-base sm:text-lg text-slate-300 leading-relaxed font-normal">
+          Rapid IO LTD is a specialized technical consultancy. We architect, implement, and optimize mission-critical software for hedge funds, investment banks, and technology organizations. Our work spans low-latency distributed architectures, multi-terabyte simulation engines, and sovereign agentic workflows.
         </p>
 
-        <div class="space-y-4 pt-2">
-          
-          <div class="p-4 rounded-xl bg-obsidian-900 border border-obsidian-800 hover:border-obsidian-700 transition-all">
-            <h4 class="text-sm font-bold text-white flex items-center">
-              <i data-lucide="cpu" class="w-4 h-4 text-cyan-400 mr-2"></i>
-              Event-Driven Simulation Over Terabytes of L2/L3 Tick Data
-            </h4>
-            <p class="text-xs text-slate-400 mt-1.5 leading-relaxed">
-              Vectorized and parallelized replay engines simulating order-queue dynamics, slippage models, latency penalties, and cross-venue fills without memory bottlenecking.
-            </p>
-          </div>
-
-          <div class="p-4 rounded-xl bg-obsidian-900 border border-obsidian-800 hover:border-obsidian-700 transition-all">
-            <h4 class="text-sm font-bold text-white flex items-center">
-              <i data-lucide="zap" class="w-4 h-4 text-cyan-400 mr-2"></i>
-              Streaming Pricers & Market Gateways
-            </h4>
-            <p class="text-xs text-slate-400 mt-1.5 leading-relaxed">
-              Real-time quoting and pricing engines handling streaming prices for over 1,500 instruments across Bloomberg (BBG), Tradeweb (TWB), TrueEx, and ERIS with real-time discrepancy detection.
-            </p>
-          </div>
-
-          <div class="p-4 rounded-xl bg-obsidian-900 border border-obsidian-800 hover:border-obsidian-700 transition-all">
-            <h4 class="text-sm font-bold text-white flex items-center">
-              <i data-lucide="activity" class="w-4 h-4 text-cyan-400 mr-2"></i>
-              Front-Office Risk & Valuation Grids
-            </h4>
-            <p class="text-xs text-slate-400 mt-1.5 leading-relaxed">
-              Distributed grid farm compute pipelines for xVA risk calculations, real-time FX/Rates PnL dashboards, and data marts indexing over 100M+ transactions.
-            </p>
-          </div>
-
-        </div>
-      </div>
-
-      <!-- Architecture Terminal Visualization -->
-      <div class="lg:col-span-6">
-        <div class="rounded-2xl bg-obsidian-900 border border-obsidian-800 overflow-hidden shadow-2xl">
-          <!-- Terminal Header -->
-          <div class="px-4 py-3 bg-obsidian-950 border-b border-obsidian-800 flex items-center justify-between">
-            <div class="flex items-center space-x-2">
-              <div class="w-3 h-3 rounded-full bg-red-500/80"></div>
-              <div class="w-3 h-3 rounded-full bg-yellow-500/80"></div>
-              <div class="w-3 h-3 rounded-full bg-green-500/80"></div>
-              <span class="text-xs font-mono text-slate-400 ml-2">rapidio_engine_runtime.cs</span>
-            </div>
-            <span class="text-[11px] font-mono text-cyan-400 bg-cyan-950/40 px-2 py-0.5 rounded border border-cyan-800/50">ORLEANS CLUSTER: ACTIVE</span>
-          </div>
-          
-          <!-- Code / Architecture Output -->
-          <div class="p-6 font-mono text-xs text-slate-300 space-y-3 leading-relaxed overflow-x-auto bg-obsidian-950/60">
-            <div><span class="text-slate-500">// Rapid IO High-Throughput Strategy Pipeline</span></div>
-            <div><span class="text-purple-400">public sealed class</span> <span class="text-cyan-400">BacktestEngineGrain</span> : <span class="text-emerald-400">Grain</span>, <span class="text-cyan-300">IBacktestGrain</span></div>
-            <div class="pl-4">{</div>
-            <div class="pl-8 text-slate-400"><span class="text-purple-400">private readonly</span> <span class="text-cyan-300">ITickBuffer</span> _tickDataBuffer;</div>
-            <div class="pl-8 text-slate-400"><span class="text-purple-400">private readonly</span> <span class="text-cyan-300">IRiskBoundary</span> _riskEnforcer;</div>
-            <div class="pl-8 text-slate-400"><span class="text-purple-400">private readonly</span> <span class="text-cyan-300">IClaudeReasoningClient</span> _agentReasoning;</div>
-            <div class="pl-8 mt-2"><span class="text-purple-400">public async ValueTask</span> <span class="text-cyan-400">ExecuteSimulationAsync</span>(<span class="text-cyan-300">SimulationPlan</span> plan)</div>
-            <div class="pl-8">{</div>
-            <div class="pl-12 text-slate-400"><span class="text-slate-500">// Zero-Allocation Memory-Mapped Stream Processing</span></div>
-            <div class="pl-12"><span class="text-cyan-400">ReadOnlySpan</span>&lt;<span class="text-emerald-300">L3MarketTick</span>&gt; tickStream = _tickDataBuffer.GetStreamSpan();</div>
-            <div class="pl-12 mt-1"><span class="text-purple-400">for</span> (<span class="text-purple-400">int</span> i = 0; i &lt; tickStream.Length; i++) {</div>
-            <div class="pl-16 text-slate-400">_riskEnforcer.EvaluateSubMillisecondLimit(tickStream[i]);</div>
-            <div class="pl-12">}</div>
-            <div class="pl-12 mt-2"><span class="text-slate-500">// Synthesizing Regime Shift via Claude 3.5 Sonnet</span></div>
-            <div class="pl-12"><span class="text-purple-400">var</span> hypothesis = <span class="text-purple-400">await</span> _agentReasoning.AnalyzeAnomalousDrawdownAsync(plan.RunId);</div>
-            <div class="pl-12"><span class="text-emerald-400">Logger</span>.LogMetrics(latencyUs: <span class="text-amber-400">42.8</span>, status: <span class="text-emerald-400">ExecutionState.Optimal</span>);</div>
-            <div class="pl-8">}</div>
-            <div class="pl-4">}</div>
-          </div>
-
-          <!-- Bottom Telemetry Bar -->
-          <div class="px-6 py-3 bg-obsidian-900 border-t border-obsidian-800 flex items-center justify-between text-[11px] font-mono text-slate-400">
-            <span class="flex items-center"><span class="w-1.5 h-1.5 rounded-full bg-cyan-400 mr-2"></span> Zero GC Pressure: POH / Span&lt;T&gt;</span>
-            <span class="text-slate-400">Throughput: <strong class="text-white">1.8M ticks/sec</strong></span>
-          </div>
+        <div class="mt-8 flex flex-wrap items-center gap-4 text-xs font-mono">
+          <a href="#contact" class="inline-flex items-center px-4 py-2.5 rounded bg-white text-brand-950 font-medium hover:bg-slate-200 transition-colors">
+            Inquire for Consultation
+            <i data-lucide="arrow-right" class="w-3.5 h-3.5 ml-2"></i>
+          </a>
+          <a href="#track-record" class="inline-flex items-center px-4 py-2.5 rounded border border-brand-700 bg-brand-900 text-slate-200 hover:bg-brand-850 transition-colors">
+            View Engagement History
+          </a>
         </div>
       </div>
 
     </div>
   </section>
 
-  <!-- DEEP DIVE: FRONTIER AGENTIC AI (ANTHROPIC SPECIALIZATION) -->
-  <section id="agentic-ai" class="py-24 bg-obsidian-900/30 border-y border-obsidian-800/80 relative z-10">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  <!-- SPECIALIZATIONS -->
+  <section id="specializations" class="py-20 border-b border-brand-800">
+    <div class="max-w-6xl mx-auto px-6">
       
-      <div class="max-w-3xl mx-auto text-center mb-16">
-        <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-xs font-mono text-cyan-300 mb-3">
-          <i data-lucide="sparkles" class="w-3.5 h-3.5 mr-1"></i>
-          <span>FRONTIER AI PRACTICE</span>
-        </div>
-        <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
-          Autonomous Agentic Systems for Quantitative & Enterprise Operations
-        </h2>
-        <p class="mt-4 text-slate-400 text-base leading-relaxed">
-          Harnessing frontier models (Anthropic Claude 3.5 Sonnet, Claude Opus) to build deterministic, multi-turn reasoning agents that interface with your core computational pipelines.
+      <div class="mb-12">
+        <h2 class="text-xs font-mono text-slate-400 uppercase tracking-wider">Practice Areas</h2>
+        <p class="mt-2 text-2xl font-semibold text-white tracking-tight">
+          Core Technical Capabilities
         </p>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        
-        <!-- Workflow 1 -->
-        <div class="p-6 rounded-2xl bg-obsidian-900 border border-obsidian-800 hover:border-cyan-500/40 transition-all shadow-glow-card">
-          <div class="text-xs font-mono text-cyan-400 uppercase tracking-widest mb-3">01 / ORCHESTRATION</div>
-          <h3 class="text-lg font-bold text-white mb-2">Multi-Agent Task Decomposition</h3>
-          <p class="text-slate-400 text-sm leading-relaxed mb-4">
-            Autonomous agent teams coordinated via state-machine graphs. Specialists for statistical validation, code generation, risk checking, and automated reporting.
-          </p>
-          <div class="p-3 rounded-lg bg-obsidian-950 border border-obsidian-800 text-xs font-mono text-slate-300">
-            <span class="text-cyan-400">&gt; Prompt:</span> "Optimize mean-reversion alpha on 2024 rates data"
-            <br><span class="text-emerald-400">&gt; Decomposed into:</span> 4 parallel agent jobs
-          </div>
-        </div>
-
-        <!-- Workflow 2 -->
-        <div class="p-6 rounded-2xl bg-obsidian-900 border border-obsidian-800 hover:border-cyan-500/40 transition-all shadow-glow-card">
-          <div class="text-xs font-mono text-cyan-400 uppercase tracking-widest mb-3">02 / TOOL USE & API LOOPS</div>
-          <h3 class="text-lg font-bold text-white mb-2">Deterministic Tool Execution</h3>
-          <p class="text-slate-400 text-sm leading-relaxed mb-4">
-            Direct integration with internal simulation tools, database indices, and FIX protocols via Anthropic tool use. No hallucinated commands; strictly typed JSON schema validation.
-          </p>
-          <div class="p-3 rounded-lg bg-obsidian-950 border border-obsidian-800 text-xs font-mono text-slate-300">
-            <span class="text-cyan-400">&gt; Claude 3.5:</span> Invokes <code class="text-white">RunMonteCarlo()</code>
-            <br><span class="text-emerald-400">&gt; Output verified:</span> 10,000 paths in 340ms
-          </div>
-        </div>
-
-        <!-- Workflow 3 -->
-        <div class="p-6 rounded-2xl bg-obsidian-900 border border-obsidian-800 hover:border-cyan-500/40 transition-all shadow-glow-card">
-          <div class="text-xs font-mono text-cyan-400 uppercase tracking-widest mb-3">03 / KNOWLEDGE RETRIEVAL</div>
-          <h3 class="text-lg font-bold text-white mb-2">Audit-Compliant Financial RAG</h3>
-          <p class="text-slate-400 text-sm leading-relaxed mb-4">
-            Hybrid dense-sparse vector engines connected to live market feeds, earnings transcripts, and regulatory filings. Every output anchored by verbatim, auditable source citations.
-          </p>
-          <div class="p-3 rounded-lg bg-obsidian-950 border border-obsidian-800 text-xs font-mono text-slate-300">
-            <span class="text-cyan-400">&gt; Query:</span> "xVA impact of new counterparty clause"
-            <br><span class="text-emerald-400">&gt; Citation:</span> ISDA Schedule §4.2 (Verified)
-          </div>
-        </div>
-
-      </div>
-
-      <!-- Anthropic Alignment Callout -->
-      <div class="mt-12 p-8 rounded-2xl bg-gradient-to-r from-obsidian-900 via-obsidian-900 to-obsidian-850 border border-cyan-500/30 flex flex-col md:flex-row items-center justify-between gap-6">
-        <div class="space-y-2">
-          <h3 class="text-xl font-bold text-white flex items-center">
-            <i data-lucide="shield" class="w-5 h-5 text-cyan-400 mr-2.5"></i>
-            Enterprise Model Isolation & Zero Data Retention
-          </h3>
-          <p class="text-slate-400 text-sm max-w-2xl leading-relaxed">
-            All frontier model integrations are engineered with zero training retention, private tenant routing, and cryptographic audit logs suitable for banking secrecy and compliance.
-          </p>
-        </div>
-        <div class="shrink-0 font-mono text-xs text-cyan-300 bg-obsidian-950 px-4 py-2.5 rounded-xl border border-obsidian-700">
-          SOC2 · GDPR · SEC 17a-4 COMPLIANT
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- ARCHITECTURE & METHODOLOGY -->
-  <section id="architecture" class="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-    <div class="text-center max-w-3xl mx-auto mb-16">
-      <h2 class="text-xs font-mono text-cyan-400 uppercase tracking-widest">Systems Blueprint</h2>
-      <p class="mt-2 text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
-        The Rapid IO Technical Stack
-      </p>
-      <p class="mt-4 text-slate-400 text-base">
-        A deterministic architecture engineered for microsecond throughput on the computational plane and intelligent adaptability on the cognitive plane.
-      </p>
-    </div>
-
-    <!-- Visual Architecture Stack Diagram -->
-    <div class="space-y-4 max-w-4xl mx-auto">
-      
-      <!-- Layer 1: Cognitive & Reasoning Layer -->
-      <div class="p-6 rounded-2xl bg-obsidian-900/90 border border-cyan-500/40 relative shadow-glow-card">
-        <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-3">
-          <span class="text-xs font-mono text-cyan-400 uppercase font-bold tracking-wider">LAYER 03 · COGNITIVE & REASONING PLANE</span>
-          <span class="text-xs font-mono text-slate-400 mt-1 sm:mt-0">Anthropic Claude 3.5 Sonnet / Opus · Multi-Agent Workflows</span>
-        </div>
-        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs font-mono">
-          <div class="p-3 rounded-lg bg-obsidian-950 border border-obsidian-800 text-slate-300">
-            <strong class="text-white block mb-1">Agentic Orchestration</strong>
-            Autonomous research loops, parameter search, code synthesis
-          </div>
-          <div class="p-3 rounded-lg bg-obsidian-950 border border-obsidian-800 text-slate-300">
-            <strong class="text-white block mb-1">Deterministic RAG</strong>
-            Hybrid vector / BM25 search, regulatory filings, ISDA docs
-          </div>
-          <div class="p-3 rounded-lg bg-obsidian-950 border border-obsidian-800 text-slate-300">
-            <strong class="text-white block mb-1">Formal Guardrails</strong>
-            JSON-schema tool verification, zero hallucination checks
-          </div>
-        </div>
-      </div>
-
-      <!-- Connector Arrow -->
-      <div class="flex justify-center text-cyan-500">
-        <i data-lucide="arrow-down-up" class="w-5 h-5"></i>
-      </div>
-
-      <!-- Layer 2: Distributed State & Actor Layer -->
-      <div class="p-6 rounded-2xl bg-obsidian-900/90 border border-obsidian-800 relative">
-        <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-3">
-          <span class="text-xs font-mono text-cyan-400 uppercase font-bold tracking-wider">LAYER 02 · DISTRIBUTED STATE & ACTOR RUNTIME</span>
-          <span class="text-xs font-mono text-slate-400 mt-1 sm:mt-0">Microsoft Orleans · Virtual Actors · Kafka · Solace · Redis</span>
-        </div>
-        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs font-mono">
-          <div class="p-3 rounded-lg bg-obsidian-950 border border-obsidian-800 text-slate-300">
-            <strong class="text-white block mb-1">Stateful Virtual Actors</strong>
-            Millions of active grains, automated partition rebalancing
-          </div>
-          <div class="p-3 rounded-lg bg-obsidian-950 border border-obsidian-800 text-slate-300">
-            <strong class="text-white block mb-1">Distributed Grid Farm</strong>
-            xVA calculations, Monte Carlo risk engines across compute nodes
-          </div>
-          <div class="p-3 rounded-lg bg-obsidian-950 border border-obsidian-800 text-slate-300">
-            <strong class="text-white block mb-1">Resilient Messaging</strong>
-            gRPC, SignalR, Event sourcing, fault-tolerant state recovery
-          </div>
-        </div>
-      </div>
-
-      <!-- Connector Arrow -->
-      <div class="flex justify-center text-cyan-500">
-        <i data-lucide="arrow-down-up" class="w-5 h-5"></i>
-      </div>
-
-      <!-- Layer 3: High-Frequency Systems & Execution Core -->
-      <div class="p-6 rounded-2xl bg-obsidian-900/90 border border-obsidian-800 relative">
-        <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-3">
-          <span class="text-xs font-mono text-cyan-400 uppercase font-bold tracking-wider">LAYER 01 · CORE COMPUTATION & EXECUTION PLANE</span>
-          <span class="text-xs font-mono text-slate-400 mt-1 sm:mt-0">Low-Allocation .NET Core · C# · Span&lt;T&gt; · Memory Pools</span>
-        </div>
-        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs font-mono">
-          <div class="p-3 rounded-lg bg-obsidian-950 border border-obsidian-800 text-slate-300">
-            <strong class="text-white block mb-1">Microsecond Backtester</strong>
-            Multi-TB L2/L3 tick history simulation with slippage models
-          </div>
-          <div class="p-3 rounded-lg bg-obsidian-950 border border-obsidian-800 text-slate-300">
-            <strong class="text-white block mb-1">Electronic Gateways</strong>
-            FIX Protocol, Bloomberg, Tradeweb, TrueEx, real-time quoting
-          </div>
-          <div class="p-3 rounded-lg bg-obsidian-950 border border-obsidian-800 text-slate-300">
-            <strong class="text-white block mb-1">Zero-GC Optimization</strong>
-            Custom in-memory caches, Pinned Object Heap, CPU cache affinity
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- INSTITUTIONAL TRACK RECORD / PEDIGREE -->
-  <section id="track-record" class="py-24 bg-obsidian-900/40 border-y border-obsidian-800/80 relative z-10">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      
-      <div class="text-center max-w-3xl mx-auto mb-16">
-        <h2 class="text-xs font-mono text-cyan-400 uppercase tracking-widest">Institutional Pedigree</h2>
-        <p class="mt-2 text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
-          Battle-Tested Across Global Capital Markets
-        </p>
-        <p class="mt-4 text-slate-400 text-base">
-          Our engineering leadership has designed and deployed mission-critical front-office trading, risk, and distributed systems for elite financial institutions across London, New York, and global hubs.
-        </p>
-      </div>
-
-      <!-- Domain Case Studies Grid -->
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
         
-        <!-- Case Study 1 -->
-        <div class="p-8 rounded-2xl bg-obsidian-900 border border-obsidian-800 hover:border-slate-700 transition-all">
-          <div class="flex items-center justify-between mb-4">
-            <span class="text-xs font-mono text-cyan-400 uppercase font-semibold">ELECTRONIC TRADING & REAL-TIME PRICING</span>
-            <span class="text-xs font-mono text-slate-400">Canary Wharf & City of London</span>
+        <!-- Pillar 1 -->
+        <div class="p-6 rounded-lg bg-brand-900 border border-brand-800">
+          <div class="flex items-center space-x-3 mb-4">
+            <div class="p-2 rounded bg-brand-850 border border-brand-700 text-brand-accentLight">
+              <i data-lucide="layers" class="w-5 h-5"></i>
+            </div>
+            <h3 class="text-lg font-semibold text-white">Distributed Architecture & Actor Systems</h3>
           </div>
-          <h3 class="text-xl font-bold text-white mb-2">Cloud-Native Electronic Trading Platform & Multi-Pricer</h3>
-          <p class="text-slate-400 text-sm leading-relaxed mb-4">
-            Architected green-field cloud-native electronic platforms running on AWS. Delivered high-performance distributed microservices including dual pricing engines publishing streaming quotes for over 1,500 financial instruments across multi-market gateways.
+          <p class="text-sm text-slate-300 leading-relaxed">
+            Engineering robust, cloud-native distributed platforms with <strong>Microsoft Orleans</strong> and the virtual actor pattern. Architecting stateful, resilient microservices capable of partition tolerance, automatic state recovery, and high-concurrency throughput.
           </p>
-          <div class="flex flex-wrap gap-2 text-[11px] font-mono text-slate-400">
-            <span class="px-2.5 py-1 rounded bg-obsidian-950 border border-obsidian-800">1,500+ Instruments</span>
-            <span class="px-2.5 py-1 rounded bg-obsidian-950 border border-obsidian-800">AWS Cloud-Native</span>
-            <span class="px-2.5 py-1 rounded bg-obsidian-950 border border-obsidian-800">Zero Latency Anomaly</span>
+          <div class="mt-4 pt-4 border-t border-brand-800 flex flex-wrap gap-2 text-xs font-mono text-slate-400">
+            <span>Microsoft Orleans</span> · <span>Actor Model</span> · <span>Distributed Grids</span> · <span>gRPC / Solace / Kafka</span>
           </div>
         </div>
 
-        <!-- Case Study 2 -->
-        <div class="p-8 rounded-2xl bg-obsidian-900 border border-obsidian-800 hover:border-slate-700 transition-all">
-          <div class="flex items-center justify-between mb-4">
-            <span class="text-xs font-mono text-cyan-400 uppercase font-semibold">QUANTITATIVE SYNDICATES & ALGORITHMIC TRADING</span>
-            <span class="text-xs font-mono text-slate-400">Quantitative Funds</span>
+        <!-- Pillar 2 -->
+        <div class="p-6 rounded-lg bg-brand-900 border border-brand-800">
+          <div class="flex items-center space-x-3 mb-4">
+            <div class="p-2 rounded bg-brand-850 border border-brand-700 text-brand-accentLight">
+              <i data-lucide="activity" class="w-5 h-5"></i>
+            </div>
+            <h3 class="text-lg font-semibold text-white">Quantitative Simulation & Backtesting</h3>
           </div>
-          <h3 class="text-xl font-bold text-white mb-2">High-Frequency Distributed Platform & Backtest Grid</h3>
-          <p class="text-slate-400 text-sm leading-relaxed mb-4">
-            Designed and engineered high-frequency distributed platforms using Microsoft Orleans virtual actors. Built high-throughput backtesting and multi-terabyte simulation systems alongside intelligent RAG and data processing layers.
+          <p class="text-sm text-slate-300 leading-relaxed">
+            Building high-throughput, event-driven backtesting engines to validate algorithmic trading strategies across multi-terabyte historical tick datasets. Simulating realistic order queue dynamics, market impact, slippage, and execution fills.
           </p>
-          <div class="flex flex-wrap gap-2 text-[11px] font-mono text-slate-400">
-            <span class="px-2.5 py-1 rounded bg-obsidian-950 border border-obsidian-800">Microsoft Orleans</span>
-            <span class="px-2.5 py-1 rounded bg-obsidian-950 border border-obsidian-800">Multi-TB Simulation</span>
-            <span class="px-2.5 py-1 rounded bg-obsidian-950 border border-obsidian-800">Enterprise RAG</span>
+          <div class="mt-4 pt-4 border-t border-brand-800 flex flex-wrap gap-2 text-xs font-mono text-slate-400">
+            <span>L2/L3 Order Book Replay</span> · <span>Event Simulation</span> · <span>Monte Carlo Grids</span> · <span>Strategy Validation</span>
           </div>
         </div>
 
-        <!-- Case Study 3 -->
-        <div class="p-8 rounded-2xl bg-obsidian-900 border border-obsidian-800 hover:border-slate-700 transition-all">
-          <div class="flex items-center justify-between mb-4">
-            <span class="text-xs font-mono text-cyan-400 uppercase font-semibold">xVA & STRATEGIC RISK PLATFORMS</span>
-            <span class="text-xs font-mono text-slate-400">Tier-1 Investment Bank</span>
+        <!-- Pillar 3 -->
+        <div class="p-6 rounded-lg bg-brand-900 border border-brand-800">
+          <div class="flex items-center space-x-3 mb-4">
+            <div class="p-2 rounded bg-brand-850 border border-brand-700 text-brand-accentLight">
+              <i data-lucide="gauge" class="w-5 h-5"></i>
+            </div>
+            <h3 class="text-lg font-semibold text-white">Electronic Trading & Capital Markets Risk</h3>
           </div>
-          <h3 class="text-xl font-bold text-white mb-2">Distributed Grid Farm Acceleration for Global xVA</h3>
-          <p class="text-slate-400 text-sm leading-relaxed mb-4">
-            Significantly optimized the performance of compute-intensive risk calculations and reporting executed across a distributed grid compute farm covering global derivatives products. Designed end-to-end management systems used by traders and quants.
+          <p class="text-sm text-slate-300 leading-relaxed">
+            Front-office electronic trading platforms, pricing engines, and multi-asset risk management systems. Experience covering Rates, FX, Equity Derivatives, Prime Brokerage, and counterparty credit risk (xVA) calculations across distributed compute grids.
           </p>
-          <div class="flex flex-wrap gap-2 text-[11px] font-mono text-slate-400">
-            <span class="px-2.5 py-1 rounded bg-obsidian-950 border border-obsidian-800">xVA Distributed Grid</span>
-            <span class="px-2.5 py-1 rounded bg-obsidian-950 border border-obsidian-800">GC & Memory Profiling</span>
-            <span class="px-2.5 py-1 rounded bg-obsidian-950 border border-obsidian-800">Real-Time Risk Web</span>
+          <div class="mt-4 pt-4 border-t border-brand-800 flex flex-wrap gap-2 text-xs font-mono text-slate-400">
+            <span>FIX Protocol</span> · <span>Bloomberg / Tradeweb / TrueEx</span> · <span>xVA Risk Grids</span> · <span>Streaming Pricers</span>
           </div>
         </div>
 
-        <!-- Case Study 4 -->
-        <div class="p-8 rounded-2xl bg-obsidian-900 border border-obsidian-800 hover:border-slate-700 transition-all">
-          <div class="flex items-center justify-between mb-4">
-            <span class="text-xs font-mono text-cyan-400 uppercase font-semibold">HIGH-FREQUENCY MESSAGING & PRODUCTION RESILIENCE</span>
-            <span class="text-xs font-mono text-slate-400">Global Derivatives</span>
+        <!-- Pillar 4 -->
+        <div class="p-6 rounded-lg bg-brand-900 border border-brand-800">
+          <div class="flex items-center space-x-3 mb-4">
+            <div class="p-2 rounded bg-brand-850 border border-brand-700 text-brand-accentLight">
+              <i data-lucide="cpu" class="w-5 h-5"></i>
+            </div>
+            <h3 class="text-lg font-semibold text-white">Applied AI, RAG & Agentic Systems</h3>
           </div>
-          <h3 class="text-xl font-bold text-white mb-2">250 Production Releases with Zero Outages</h3>
-          <p class="text-slate-400 text-sm leading-relaxed mb-4">
-            Engineered low-latency message-based microservices across BBG, TWB, and TrueEx. Profiling and reducing CPU/GC overhead to achieve deterministic straight-through processing (STP) and 250 production releases in a single year with 0 incidents.
+          <p class="text-sm text-slate-300 leading-relaxed">
+            Integrating frontier large language models (Anthropic Claude 3.5 Sonnet / Opus) with core enterprise workflows. Designing deterministic retrieval-augmented generation (RAG) pipelines, multi-agent orchestration, and private VPC model deployments with zero data retention.
           </p>
-          <div class="flex flex-wrap gap-2 text-[11px] font-mono text-slate-400">
-            <span class="px-2.5 py-1 rounded bg-obsidian-950 border border-obsidian-800">250 Deployments / 0 Failures</span>
-            <span class="px-2.5 py-1 rounded bg-obsidian-950 border border-obsidian-800">Sub-Millisecond STP</span>
-            <span class="px-2.5 py-1 rounded bg-obsidian-950 border border-obsidian-800">SQALE Quality Metrics</span>
+          <div class="mt-4 pt-4 border-t border-brand-800 flex flex-wrap gap-2 text-xs font-mono text-slate-400">
+            <span>Anthropic Claude Workflows</span> · <span>Deterministic RAG</span> · <span>Agent Tool-Use</span> · <span>Private VPC Enclaves</span>
           </div>
         </div>
 
       </div>
+    </div>
+  </section>
 
-      <!-- Open Source Callout -->
-      <div class="mt-12 p-6 rounded-2xl bg-obsidian-900/60 border border-obsidian-800 flex flex-col sm:flex-row items-center justify-between gap-6">
-        <div class="flex items-center space-x-4">
-          <div class="w-12 h-12 rounded-xl bg-cyan-500/10 border border-cyan-500/20 flex items-center justify-center text-cyan-400 shrink-0">
-            <i data-lucide="package" class="w-6 h-6"></i>
-          </div>
-          <div>
-            <h4 class="text-base font-bold text-white">5,000,000+ NuGet Downloads</h4>
-            <p class="text-xs text-slate-400">Author of foundational open-source .NET libraries powering mission-critical architectures worldwide.</p>
-          </div>
+  <!-- SYSTEMS ENGINEERING & LOW-LATENCY RUNTIME -->
+  <section id="engineering" class="py-20 border-b border-brand-800 bg-brand-900/40">
+    <div class="max-w-6xl mx-auto px-6">
+      
+      <div class="max-w-3xl mb-12">
+        <h2 class="text-xs font-mono text-slate-400 uppercase tracking-wider">Engineering Standards</h2>
+        <p class="mt-2 text-2xl font-semibold text-white tracking-tight">
+          Low-Allocation .NET & Systems-Level Optimization
+        </p>
+        <p class="mt-3 text-sm text-slate-300 leading-relaxed">
+          High-throughput financial software demands mechanical sympathy with the underlying hardware, memory model, and runtime execution profile.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm">
+        
+        <div class="p-5 rounded bg-brand-900 border border-brand-800">
+          <div class="font-mono text-xs text-brand-accentLight mb-2">01 / MEMORY ARCHITECTURE</div>
+          <h4 class="font-semibold text-white mb-2">Garbage Collection Mitigation</h4>
+          <p class="text-slate-400 text-xs leading-relaxed">
+            Zero-allocation execution paths utilizing <code class="text-slate-200">Span&lt;T&gt;</code>, <code class="text-slate-200">MemoryPool&lt;T&gt;</code>, structs, and Pinned Object Heap to prevent Gen2 GC pauses on critical execution loops.
+          </p>
         </div>
-        <div class="shrink-0">
-          <span class="px-3 py-1.5 rounded-lg bg-obsidian-950 border border-obsidian-800 text-xs font-mono text-cyan-400">
-            OPEN SOURCE LEADERSHIP
-          </span>
+
+        <div class="p-5 rounded bg-brand-900 border border-brand-800">
+          <div class="font-mono text-xs text-brand-accentLight mb-2">02 / CONCURRENCY</div>
+          <h4 class="font-semibold text-white mb-2">Lock-Free & Virtual Actors</h4>
+          <p class="text-slate-400 text-xs leading-relaxed">
+            Elimination of lock contention via actor grain single-threaded execution guarantees, asynchronous channels, and lock-free ring buffers for high-volume message queues.
+          </p>
         </div>
+
+        <div class="p-5 rounded bg-brand-900 border border-brand-800">
+          <div class="font-mono text-xs text-brand-accentLight mb-2">03 / MONITORING & STABILITY</div>
+          <h4 class="font-semibold text-white mb-2">Microsecond Observability</h4>
+          <p class="text-slate-400 text-xs leading-relaxed">
+            Real-time latency monitoring, price discrepancy detection across multi-venue gateways, and strict SQALE code quality metrics resulting in zero-incident deployments.
+          </p>
+        </div>
+
       </div>
 
     </div>
   </section>
 
-  <!-- ENGAGEMENT MODELS -->
-  <section id="engagement" class="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-    <div class="text-center max-w-3xl mx-auto mb-16">
-      <h2 class="text-xs font-mono text-cyan-400 uppercase tracking-widest">Client Collaboration</h2>
-      <p class="mt-2 text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
-        Institutional Engagement Models
-      </p>
-      <p class="mt-4 text-slate-400 text-base">
-        Rapid IO partners with funds, banks, and technology organizations through dedicated, outcome-focused engagement structures.
-      </p>
-    </div>
-
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+  <!-- TRACK RECORD / CASE STUDIES -->
+  <section id="track-record" class="py-20 border-b border-brand-800">
+    <div class="max-w-6xl mx-auto px-6">
       
-      <!-- Model 1 -->
-      <div class="p-8 rounded-2xl bg-obsidian-900 border border-obsidian-800 hover:border-cyan-500/40 transition-all flex flex-col justify-between shadow-glow-card">
-        <div>
-          <span class="text-xs font-mono text-cyan-400 uppercase font-semibold">MODEL A</span>
-          <h3 class="text-xl font-bold text-white mt-2 mb-3">Core Platform Architecture & Build</h3>
-          <p class="text-slate-400 text-sm leading-relaxed mb-6">
-            Green-field or strategic modernization of core quantitative systems: high-throughput backtesters, distributed Microsoft Orleans actor networks, or low-latency electronic execution gateways.
-          </p>
-        </div>
-        <div class="pt-6 border-t border-obsidian-800 text-xs font-mono text-slate-300 space-y-2">
-          <div>• Full lifecycle architecture to delivery</div>
-          <div>• Strict performance SLAs & benchmarks</div>
-          <div>• Complete IP handover & team upskilling</div>
-        </div>
+      <div class="mb-12">
+        <h2 class="text-xs font-mono text-slate-400 uppercase tracking-wider">Representative Engagements</h2>
+        <p class="mt-2 text-2xl font-semibold text-white tracking-tight">
+          Battle-Tested Institutional Pedigree
+        </p>
+        <p class="mt-2 text-sm text-slate-400">
+          Selected architectural assignments across front-office trading, risk, and quantitative platforms.
+        </p>
       </div>
 
-      <!-- Model 2 -->
-      <div class="p-8 rounded-2xl bg-obsidian-900 border border-cyan-500/30 relative flex flex-col justify-between shadow-glow-card">
-        <div class="absolute -top-3 right-6 px-2.5 py-0.5 rounded-full bg-cyan-400 text-obsidian-950 text-[10px] font-mono font-bold">
-          HIGH DEMAND
+      <div class="space-y-6">
+        
+        <!-- Engagement 1 -->
+        <div class="p-6 rounded-lg bg-brand-900 border border-brand-800">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-brand-850 gap-2">
+            <span class="text-sm font-semibold text-white">Cloud-Native Electronic Trading Platform & Dual Pricers</span>
+            <span class="text-xs font-mono text-slate-400">Tier-1 Investment Bank · London & Europe</span>
+          </div>
+          <div class="mt-4 grid grid-cols-1 md:grid-cols-3 gap-6 text-xs leading-relaxed">
+            <div>
+              <div class="font-mono text-slate-400 mb-1 uppercase">Context</div>
+              <p class="text-slate-300">Green-field electronic trading platform running natively on AWS with teams distributed across London, Portugal, and Spain.</p>
+            </div>
+            <div>
+              <div class="font-mono text-slate-400 mb-1 uppercase">Architecture</div>
+              <p class="text-slate-300">Designed and built high-performance distributed microservices, including two real-time pricing engines and market gateway adapters.</p>
+            </div>
+            <div>
+              <div class="font-mono text-slate-400 mb-1 uppercase">Outcome</div>
+              <p class="text-slate-300">Continuous quote generation across market gateways with sub-millisecond execution and automated latency tracking.</p>
+            </div>
+          </div>
         </div>
-        <div>
-          <span class="text-xs font-mono text-cyan-400 uppercase font-semibold">MODEL B</span>
-          <h3 class="text-xl font-bold text-white mt-2 mb-3">Embedded Frontier AI Lab</h3>
-          <p class="text-slate-400 text-sm leading-relaxed mb-6">
-            Rapid design, prototyping, and production deployment of autonomous agent workflows, enterprise RAG pipelines, and Claude-powered quantitative hypothesis generators within client enclaves.
-          </p>
-        </div>
-        <div class="pt-6 border-t border-obsidian-800 text-xs font-mono text-slate-300 space-y-2">
-          <div>• Anthropic Claude 3.5 / Opus integration</div>
-          <div>• Air-gapped / Private VPC infrastructure</div>
-          <div>• Zero hallucination guardrail engineering</div>
-        </div>
-      </div>
 
-      <!-- Model 3 -->
-      <div class="p-8 rounded-2xl bg-obsidian-900 border border-obsidian-800 hover:border-cyan-500/40 transition-all flex flex-col justify-between shadow-glow-card">
-        <div>
-          <span class="text-xs font-mono text-cyan-400 uppercase font-semibold">MODEL C</span>
-          <h3 class="text-xl font-bold text-white mt-2 mb-3">Performance Audit & Optimization Sprint</h3>
-          <p class="text-slate-400 text-sm leading-relaxed mb-6">
-            Deep-dive latency, garbage collection, and concurrency profiling of existing .NET or distributed services to eliminate throughput bottlenecks and reduce infrastructure cost.
-          </p>
+        <!-- Engagement 2 -->
+        <div class="p-6 rounded-lg bg-brand-900 border border-brand-800">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-brand-850 gap-2">
+            <span class="text-sm font-semibold text-white">Distributed Orleans Core & Simulation Engine</span>
+            <span class="text-xs font-mono text-slate-400">Quantitative Desks & Proprietary Funds</span>
+          </div>
+          <div class="mt-4 grid grid-cols-1 md:grid-cols-3 gap-6 text-xs leading-relaxed">
+            <div>
+              <div class="font-mono text-slate-400 mb-1 uppercase">Context</div>
+              <p class="text-slate-300">High-frequency trading and strategy evaluation environments requiring large-scale distributed backtesting and data retrieval.</p>
+            </div>
+            <div>
+              <div class="font-mono text-slate-400 mb-1 uppercase">Architecture</div>
+              <p class="text-slate-300">Engineered distributed core platforms using Microsoft Orleans virtual actors, integrating high-throughput simulation grids with RAG-based data pipelines.</p>
+            </div>
+            <div>
+              <div class="font-mono text-slate-400 mb-1 uppercase">Outcome</div>
+              <p class="text-slate-300">Parallelized simulation across multi-terabyte tick history with zero cluster partition failures and deterministic execution.</p>
+            </div>
+          </div>
         </div>
-        <div class="pt-6 border-t border-obsidian-800 text-xs font-mono text-slate-300 space-y-2">
-          <div>• Microsecond-level profiling & tracing</div>
-          <div>• GC pressure elimination (Span / Memory)</div>
-          <div>• Concurrency & actor lock mitigation</div>
+
+        <!-- Engagement 3 -->
+        <div class="p-6 rounded-lg bg-brand-900 border border-brand-800">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-brand-850 gap-2">
+            <span class="text-sm font-semibold text-white">Distributed Grid Compute Farm for xVA Risk Calculations</span>
+            <span class="text-xs font-mono text-slate-400">Global Investment Bank · Canary Wharf, London</span>
+          </div>
+          <div class="mt-4 grid grid-cols-1 md:grid-cols-3 gap-6 text-xs leading-relaxed">
+            <div>
+              <div class="font-mono text-slate-400 mb-1 uppercase">Context</div>
+              <p class="text-slate-300">Bank-wide strategic risk platform calculating cross-asset counterparty credit risk (xVA) across all global derivatives products.</p>
+            </div>
+            <div>
+              <div class="font-mono text-slate-400 mb-1 uppercase">Architecture</div>
+              <p class="text-slate-300">Optimized computational pipelines and grid distribution farms in .NET Core; developed centralized management infrastructure for quants and traders.</p>
+            </div>
+            <div>
+              <div class="font-mono text-slate-400 mb-1 uppercase">Outcome</div>
+              <p class="text-slate-300">Substantial reduction in calculation turnaround times on large-scale valuation runs with zero production incident record.</p>
+            </div>
+          </div>
         </div>
+
+        <!-- Engagement 4 -->
+        <div class="p-6 rounded-lg bg-brand-900 border border-brand-800">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-brand-850 gap-2">
+            <span class="text-sm font-semibold text-white">Multi-Market Pricing & Microservice Resilience (250 Releases, 0 Outages)</span>
+            <span class="text-xs font-mono text-slate-400">Electronic Trading Desk · City of London</span>
+          </div>
+          <div class="mt-4 grid grid-cols-1 md:grid-cols-3 gap-6 text-xs leading-relaxed">
+            <div>
+              <div class="font-mono text-slate-400 mb-1 uppercase">Context</div>
+              <p class="text-slate-300">Mission-critical quoting and execution gateways connecting to Bloomberg, Tradeweb, TrueEx, and ERIS for over 1,500 instruments.</p>
+            </div>
+            <div>
+              <div class="font-mono text-slate-400 mb-1 uppercase">Architecture</div>
+              <p class="text-slate-300">Engineered price discrepancy detection microservices, automated deployment pipelines, and deep CPU/GC profiling for straight-through processing.</p>
+            </div>
+            <div>
+              <div class="font-mono text-slate-400 mb-1 uppercase">Outcome</div>
+              <p class="text-slate-300">Completed 250 production releases within a 12-month window with zero production incidents, verified against SQALE quality metrics.</p>
+            </div>
+          </div>
+        </div>
+
       </div>
 
     </div>
   </section>
 
-  <!-- CONTACT & INSTITUTIONAL BRIEFING SECTION -->
-  <section id="contact" class="py-24 bg-obsidian-900/60 border-t border-obsidian-800 relative z-10">
-    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+  <!-- APPLIED AI & FRONTIER MODEL INTEGRATION -->
+  <section id="applied-ai" class="py-20 border-b border-brand-800 bg-brand-900/30">
+    <div class="max-w-6xl mx-auto px-6">
       
-      <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-xs font-mono text-cyan-300 mb-6">
-        <i data-lucide="mail" class="w-3.5 h-3.5 mr-1"></i>
-        <span>CONTACT & INQUIRIES</span>
+      <div class="max-w-3xl mb-12">
+        <h2 class="text-xs font-mono text-slate-400 uppercase tracking-wider">Applied AI Practice</h2>
+        <p class="mt-2 text-2xl font-semibold text-white tracking-tight">
+          Frontier AI for Capital Markets & Quantitative Workflows
+        </p>
+        <p class="mt-3 text-sm text-slate-300 leading-relaxed">
+          We integrate frontier models into real-world institutional environments where determinism, security, and low latency are non-negotiable.
+        </p>
       </div>
 
-      <h2 class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white tracking-tight">
-        Initiate an Institutional Dialogue
-      </h2>
-
-      <p class="mt-4 text-slate-400 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
-        Whether you are evaluating a next-generation backtesting engine, deploying sovereign autonomous agents, or modernizing front-office trading architecture, we are ready to discuss your requirements under mutual NDA.
-      </p>
-
-      <!-- Direct Contact Card -->
-      <div class="mt-10 p-8 rounded-2xl bg-obsidian-900 border border-cyan-500/30 shadow-2xl text-left max-w-xl mx-auto">
-        <div class="flex items-center justify-between pb-6 border-b border-obsidian-800">
-          <div>
-            <div class="text-xs font-mono text-slate-400 uppercase">Direct Executive Office</div>
-            <div class="text-lg font-bold text-white mt-0.5">Rapid IO Practice Leads</div>
-          </div>
-          <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/20 flex items-center justify-center text-cyan-400">
-            <i data-lucide="send" class="w-5 h-5"></i>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        
+        <div class="p-6 rounded bg-brand-900 border border-brand-800">
+          <h4 class="text-base font-semibold text-white mb-2">Agentic Task Orchestration</h4>
+          <p class="text-xs text-slate-400 leading-relaxed mb-4">
+            Building multi-turn autonomous agents utilizing Anthropic Claude 3.5 Sonnet and Opus for hypothesis formulation, data synthesis, and quantitative code verification.
+          </p>
+          <div class="text-[11px] font-mono text-slate-400">
+            • Typed tool execution loops<br>
+            • State-machine graph boundaries<br>
+            • Formal output schema enforcement
           </div>
         </div>
 
-        <div class="py-6 space-y-4">
-          <div class="flex items-center justify-between">
-            <span class="text-xs font-mono text-slate-400">Email:</span>
-            <a href="mailto:admin@rapidio.co.uk" class="text-sm font-mono font-semibold text-cyan-400 hover:text-cyan-300 hover:underline">
-              admin@rapidio.co.uk
+        <div class="p-6 rounded bg-brand-900 border border-brand-800">
+          <h4 class="text-base font-semibold text-white mb-2">Deterministic Enterprise RAG</h4>
+          <p class="text-xs text-slate-400 leading-relaxed mb-4">
+            Retrieval-augmented generation pipelines over structured financial data, legal contracts (ISDA/CSAs), and regulatory filings with exact citation proofs and zero hallucinations.
+          </p>
+          <div class="text-[11px] font-mono text-slate-400">
+            • Hybrid dense + sparse (BM25) search<br>
+            • Verbatim source grounding<br>
+            • Metadata-filtered access control
+          </div>
+        </div>
+
+        <div class="p-6 rounded bg-brand-900 border border-brand-800">
+          <h4 class="text-base font-semibold text-white mb-2">Private VPC & Sovereign AI</h4>
+          <p class="text-xs text-slate-400 leading-relaxed mb-4">
+            Deploying AI workloads inside client private networks (AWS, Azure, GCP) or on-prem clusters with zero data retention policies and strict adherence to financial regulatory standards.
+          </p>
+          <div class="text-[11px] font-mono text-slate-400">
+            • Zero training retention endpoints<br>
+            • Sovereign model gateway routing<br>
+            • Full audit trail and logging
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT & CORPORATE GOVERNANCE -->
+  <section id="contact" class="py-20">
+    <div class="max-w-6xl mx-auto px-6">
+      
+      <div class="max-w-2xl">
+        <h2 class="text-xs font-mono text-slate-400 uppercase tracking-wider">Contact & Inquiries</h2>
+        <p class="mt-2 text-2xl font-semibold text-white tracking-tight">
+          Initiate a Consultation
+        </p>
+        <p class="mt-3 text-sm text-slate-300 leading-relaxed">
+          We work with clients on strategic technical advisory, green-field system delivery, and specialized architecture sprints under mutual non-disclosure agreements.
+        </p>
+
+        <!-- Direct Contact Info Box -->
+        <div class="mt-8 p-6 rounded bg-brand-900 border border-brand-800 max-w-lg">
+          <div class="text-xs font-mono text-slate-400 uppercase tracking-wider mb-3">Direct Practice Contact</div>
+          
+          <div class="space-y-3 text-sm font-mono">
+            <div class="flex items-center justify-between">
+              <span class="text-slate-400">Email:</span>
+              <a href="mailto:admin@rapidio.co.uk" class="text-brand-accentLight hover:underline font-semibold">
+                admin@rapidio.co.uk
+              </a>
+            </div>
+            <div class="flex items-center justify-between">
+              <span class="text-slate-400">Location:</span>
+              <span class="text-slate-200">London, United Kingdom</span>
+            </div>
+          </div>
+
+          <div class="mt-6 pt-5 border-t border-brand-800">
+            <a href="mailto:admin@rapidio.co.uk?subject=Technical%20Inquiry%20-%20Rapid%20IO%20LTD" class="w-full text-center block py-2.5 px-4 rounded bg-white text-brand-950 font-medium text-xs font-mono hover:bg-slate-200 transition-colors">
+              Send Email to admin@rapidio.co.uk
             </a>
           </div>
-          <div class="flex items-center justify-between">
-            <span class="text-xs font-mono text-slate-400">Location:</span>
-            <span class="text-sm font-medium text-slate-200">London, United Kingdom</span>
-          </div>
-          <div class="flex items-center justify-between">
-            <span class="text-xs font-mono text-slate-400">Jurisdiction:</span>
-            <span class="text-sm font-medium text-slate-200">England & Wales</span>
-          </div>
-          <div class="flex items-center justify-between">
-            <span class="text-xs font-mono text-slate-400">Availability:</span>
-            <span class="text-xs font-mono text-emerald-400 flex items-center">
-              <span class="w-2 h-2 rounded-full bg-emerald-400 mr-1.5 animate-pulse"></span>
-              Accepting Select Q4/Q1 Engagements
-            </span>
-          </div>
-        </div>
-
-        <div class="pt-6 border-t border-obsidian-800 flex flex-col sm:flex-row gap-3">
-          <a href="mailto:admin@rapidio.co.uk?subject=Institutional%20Inquiry%20-%20Rapid%20IO" class="flex-1 text-center py-3 rounded-xl text-sm font-semibold text-obsidian-950 bg-gradient-to-r from-cyan-400 to-cyan-500 hover:from-cyan-300 hover:to-cyan-400 transition-all shadow-glow-cyan">
-            Email admin@rapidio.co.uk
-          </a>
-          <button id="copyEmailBtn" class="px-4 py-3 rounded-xl text-sm font-medium text-slate-300 bg-obsidian-950 border border-obsidian-700 hover:border-slate-500 hover:text-white transition-all flex items-center justify-center">
-            <i data-lucide="copy" class="w-4 h-4 mr-2"></i>
-            <span id="copyBtnText">Copy</span>
-          </button>
         </div>
       </div>
 
@@ -901,79 +488,38 @@
   </section>
 
   <!-- FOOTER -->
-  <footer class="bg-obsidian-950 border-t border-obsidian-850 py-12 relative z-10 text-xs text-slate-400">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex flex-col md:flex-row items-center justify-between gap-6">
-        
-        <!-- Brand & Legal -->
-        <div class="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-4">
-          <div class="flex items-center space-x-2">
-            <div class="w-6 h-6 rounded-md bg-obsidian-900 border border-obsidian-700 flex items-center justify-center p-1">
-              <svg viewBox="0 0 64 64" fill="none" class="w-full h-full">
-                <path d="M18 16h8c7 0 11 3.5 11 9.5s-4 9.5-11 9.5h-8V16z" stroke="#00F2FE" stroke-width="6" stroke-linejoin="round" fill="none" />
-                <path d="M26 35l14 15" stroke="#38BDF8" stroke-width="6" stroke-linecap="round" />
-              </svg>
-            </div>
-            <span class="font-bold text-white tracking-wider">RAPID IO LTD</span>
-          </div>
-          <span class="hidden sm:inline text-slate-500">|</span>
-          <span>Registered in England &amp; Wales</span>
+  <footer class="border-t border-brand-800 bg-brand-950 py-10 text-xs text-slate-400">
+    <div class="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div class="flex items-center space-x-2">
+        <div class="w-4 h-4 rounded bg-brand-900 border border-brand-700 flex items-center justify-center p-0.5">
+          <svg viewBox="0 0 64 64" fill="none" class="w-full h-full">
+            <rect x="15" y="14" width="7" height="36" rx="1.5" fill="#F8FAFC" />
+            <path d="M22 14H35C42 14 46 18.5 46 25C46 31.5 42 36 35 36H22V14ZM29 21V29H34.5C37.5 29 39 27.5 39 25C39 22.5 37.5 21 34.5 21H29Z" fill="#F8FAFC" />
+            <path d="M28 34L41.5 50H49L35.5 34H28Z" fill="#38BDF8" />
+          </svg>
         </div>
+        <span class="font-medium text-slate-300">Rapid IO LTD</span>
+        <span class="text-slate-600">·</span>
+        <span>Registered in England &amp; Wales</span>
+      </div>
 
-        <!-- Quick Links -->
-        <div class="flex items-center space-x-6 text-slate-400">
-          <a href="#capabilities" class="hover:text-cyan-400 transition-colors">Capabilities</a>
-          <a href="#quant-core" class="hover:text-cyan-400 transition-colors">Quantitative</a>
-          <a href="#agentic-ai" class="hover:text-cyan-400 transition-colors">Applied AI</a>
-          <a href="mailto:admin@rapidio.co.uk" class="hover:text-cyan-400 transition-colors">admin@rapidio.co.uk</a>
-        </div>
-
-        <!-- Copyright -->
-        <div class="font-mono text-slate-400">
-          &copy; <span id="year">2026</span> Rapid IO LTD. All rights reserved.
-        </div>
+      <div class="font-mono text-slate-400">
+        &copy; <span id="year">2026</span> Rapid IO LTD. All rights reserved.
       </div>
     </div>
   </footer>
 
-  <!-- Interactive Scripts -->
+  <!-- Scripts -->
   <script>
-    // Initialize Lucide Icons
     lucide.createIcons();
-
-    // Mobile Menu Toggle
-    const mobileBtn = document.getElementById('mobileMenuBtn');
-    const mobileMenu = document.getElementById('mobileMenu');
-    if (mobileBtn && mobileMenu) {
-      mobileBtn.addEventListener('click', () => {
-        mobileMenu.classList.toggle('hidden');
-      });
-      // Close mobile menu on link click
-      mobileMenu.querySelectorAll('a').forEach(link => {
-        link.addEventListener('click', () => {
-          mobileMenu.classList.add('hidden');
-        });
-      });
+    const btn = document.getElementById('mobileMenuBtn');
+    const menu = document.getElementById('mobileMenu');
+    if (btn && menu) {
+      btn.addEventListener('click', () => menu.classList.toggle('hidden'));
     }
-
-    // Dynamic Year
     const yearSpan = document.getElementById('year');
     if (yearSpan) {
       yearSpan.textContent = new Date().getFullYear();
-    }
-
-    // Copy Email to Clipboard
-    const copyBtn = document.getElementById('copyEmailBtn');
-    const copyText = document.getElementById('copyBtnText');
-    if (copyBtn && copyText) {
-      copyBtn.addEventListener('click', () => {
-        navigator.clipboard.writeText('admin@rapidio.co.uk').then(() => {
-          copyText.textContent = 'Copied!';
-          setTimeout(() => {
-            copyText.textContent = 'Copy';
-          }, 2000);
-        });
-      });
     }
   </script>
 </body>

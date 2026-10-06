@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rapidio.co.uk/sitemap.xml
